@@ -34,3 +34,27 @@ sn()
 {
 find . -name "*.sh" -print
 }
+sz()
+{
+find . -size +200k -print
+}
+sk()
+{
+find . -name "*.txt" -print
+}
+sv()
+{
+find . -name "*.png" -print
+}
+suv()
+{
+find . -name "*.c" -print
+}
+
+
+
+
+
+
+
+
